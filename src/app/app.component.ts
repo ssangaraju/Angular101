@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Sasidhar Angular Playground!';
+  title = 'Sasidhar Angular Patio de Recreo!!!';
 }
