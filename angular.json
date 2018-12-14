@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AngularLearning101": {
+    "Angular101": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AngularLearning101",
+            "outputPath": "dist/Angular101",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "AngularLearning101:build"
+            "browserTarget": "Angular101:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "AngularLearning101:build:production"
+              "browserTarget": "Angular101:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AngularLearning101:build"
+            "browserTarget": "Angular101:build"
           }
         },
         "test": {
@@ -106,7 +106,7 @@
         }
       }
     },
-    "AngularLearning101-e2e": {
+    "Angular101-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -115,11 +115,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "AngularLearning101:serve"
+            "devServerTarget": "Angular101:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "AngularLearning101:serve:production"
+              "devServerTarget": "Angular101:serve:production"
             }
           }
         },
@@ -135,5 +135,5 @@
       }
     }
   },
-  "defaultProject": "AngularLearning101"
+  "defaultProject": "Angular101"
 }
