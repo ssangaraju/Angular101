@@ -10,6 +10,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    //var watermark = require('image-watermark'); 
+    //watermark.embedWatermark('favicon.ico', {'text' : 'sample watermark'});
   }
 
 }

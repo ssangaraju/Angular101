@@ -12,6 +12,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations:[HomeComponent, WelcomeComponent, AboutComponent],
+  providers: [],
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
